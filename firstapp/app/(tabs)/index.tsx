@@ -14,6 +14,7 @@ export default function Index() {
         source={require("../../assets/images/react-logo.png")}
         style={styles.logo}
       />
+      <Text style={styles.text}>Hello World!</Text>
     </View>
   );
 }
@@ -25,5 +26,11 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: "black",
     marginBottom: 20,
+  },
+  text: {
+    fontSize: 30,
+    color: "black",
+    fontWeight: "bold",
+    textAlign: "center",
   },
 });
